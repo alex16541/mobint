@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "SegoeUI";
+  src:
+    url(src/assets/fonts/SegoeUIRegular/SegoeUIRegular.ttf) format("ttf"),
+    url(src/assets/fonts/SegoeUIRegular/SegoeUIRegular.woff) format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src:
+    url(src/assets/fonts/SegoeUIBold/SegoeUIBold.ttf) format("ttf"),
+    url(src/assets/fonts/SegoeUIBold/SegoeUIBold.woff) format("woff");
+  font-weight: 700;
+}
+
+:root {
+
+  --colorWhite: #fff;
+  --colorBlack: #1a1a1a;
+  --colorRed: #ff3044;
+  --colorBlue: #2688eb;
+  --colorDarkGray: #949494;
+  --colorLightGray: #efefef;
+}
+
+body {
+  font-family: "SegoeUI", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  color: var(--colorBlack);
+}
+
+#root{
+  height: 100vh;
+}
+
