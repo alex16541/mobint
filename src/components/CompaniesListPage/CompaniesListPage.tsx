@@ -35,7 +35,7 @@ export const CompaniesListPage = () => {
 
       setContentIsLoading(true);
 
-      axios.post('http://devapp.bonusmoney.pro/mobileapp/getAllCompaniesLong', {
+      axios.post('http://devapp.bonusmoney.pro/mobileapp/getAllCompanies', {
         offset: offset,
         limit: 10,
       },
